@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class SciCalculator
 {
+    //print the menu and show the result that follow the input number by user
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
@@ -17,7 +18,7 @@ public class SciCalculator
         {
             if(input1 < 7)
             {
-                if (input1 > 0)
+                if (input1 > 0)//print the menu if user doesn't input 0
                 {
                     System.out.println("Current Result: " + RESULT);
                     System.out.println();
