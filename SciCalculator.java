@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SciCalculator
 {
     //print the menu and show the result that follow the input number by user
+    //Then, show the result 
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
